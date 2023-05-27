@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+/***** PREREQUISITES *****/
+
+body {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(224, 70, 121);
+}
+
+p,
+h2 {
+  font-size: 1.2em;
+  color: rgb(255, 241, 241);
+}
+
+/***** NAVIGATION *****/
+
+.home-nav {
+  background-color: rgb(224, 70, 121);
+}
+
+.home-nav p {
+  margin-block-end: 0.5em;
+  margin-block-start: 0.5em;
+}
+
+.nav-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.nav-header,
+.nav-year {
+  font-size: 1.3em;
+  display: block;
+}
+
+.arrow {
+  width: 2.2em;
+  height: 2.2em;
+}
+
+.settings-image {
+  width: 2em;
+}
+
+.search-button {
+  background-color: transparent;
+  border: none;
+  display: block;
+}
+
+.no-header {
+  display: none;
+}
+
+.input {
+  display: flex;
+}
+
+.search-input {
+  display: block;
+  padding: 0.5em;
+}
+
+.search {
+  background-color: rgba(0, 0, 0, 0.342);
+  border: none;
+  border-radius: 0 7px 7px 0;
+}
+
+/***** HEADER *****/
+
+.header {
+  height: 10em;
+  display: flex;
+}
+
+.map {
+  background-image: url('./assets/map.jpg');
+  background-position: center;
+  width: 50%;
+  background-size: cover;
+  position: relative;
+}
+
+.map-overlay {
+  position: absolute;
+  top: 0%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(177deg, rgba(249, 3, 126, 0.856) 0%, rgba(255, 99, 151, 0.76) 100%);
+}
+
+.header-text {
+  background: linear-gradient(177deg, rgba(249, 3, 126, 0.856) 0%, rgba(255, 99, 151, 0.76) 100%);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 1em;
+}
+
+.header-text h2 {
+  margin-block-end: 0;
+  margin-block-start: 0;
+  font-size: 1.7em;
+}
+
+/***** MAIN *****/
+
+.main-header {
+  background-color: rgb(224, 70, 121);
+  margin-block-end: 0%;
+  margin-block-start: 0%;
+  padding: 0.5em;
+  font-size: 1.3em;
+}
+
+.pollutants-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(224, 70, 121);
+}
+
+.pollutant {
+  width: 50%;
+  margin: auto;
+  background-image: linear-gradient(177deg, rgba(253, 20, 98, 0.836) 0%, rgba(253, 20, 98, 0.836) 90%), url('./assets/nitrogen1.png');
+  background-size: cover;
+  border: none;
+}
+
+.link {
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.pollutant:nth-child(4n-3),
+.pollutant:nth-child(4n) {
+  background-image: linear-gradient(177deg, rgba(207, 27, 72, 0.842) 0%, rgba(207, 27, 72, 0.815) 90%), url('./assets/carbon1.png');
+  background-size: cover;
+}
+
+.time {
+  font-size: 2em;
+  font-weight: 600;
+  left: 0.5em;
+  position: relative;
+}
+
+.pollutant-data {
+  position: relative;
+  left: 0.5em;
+}
+
+.forward {
+  align-self: flex-end;
+  width: 2.5em;
+}
+
+.loading {
+  color: white;
+  font-size: 2em;
+}
+
+.error {
+  color: white;
+  font-size: 1.5em;
+}
+
+/***** DETAILS *****/
+
+.back-button {
+  background-color: transparent;
+  border: none;
+}
+
+.air-quality {
+  margin-block-start: 0%;
+}
+
+.rate {
+  margin-block-start: 0%;
+  margin: 0%;
+}
+
+.pollutant-detail {
+  display: flex;
+  background-color: rgb(250, 62, 119);
+  padding: 0 1em;
+  gap: 2em;
+}
+
+.right-col {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.left-col {
+  width: 20%;
+}
+
+.foward-img {
+  width: 2em;
+  height: 2em;
+}
+
+.pollutant-detail:nth-child(even) {
+  background-color: rgba(216, 44, 110, 0.973);
+}
