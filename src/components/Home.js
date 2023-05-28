@@ -165,8 +165,8 @@ export default function Home() {
       <div className="pollutants-container">
         {
           pollutants.list.map((pollutant) => (
-            <button key={pollutant.td} type="button" onClick={() => HandleDetails(pollutant)} className="pollutant">
-              <Link className="link" to="/details">
+            <button key={pollutant.dt} type="button" onClick={() => HandleDetails(pollutant)} className="pollutant">
+              <Link className="link" to={`/details/${pollutant.dt}`}>
                 <img className="forward" src={forward} alt="forward" />
                 <p className="time"><Moment unix format="HH : MM">{pollutant.dt}</Moment></p>
                 <p className="pollutant-data">

@@ -83,6 +83,8 @@ If you like this project show your support by giving a ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+I would like to thank Nelson Sakwa, the author of the original design from Creative Commons.
+
 I would like to thank the entire microverse staff and students for such a wonderful coding camp
 
 ## 📝 License <a name="license"></a>
