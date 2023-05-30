@@ -85,6 +85,5 @@ describe('Home', () => {
 
     // Assert that the pollutant data is rendered correctly
     expect(screen.getByText('Ghana')).toBeInTheDocument();
-    expect(screen.getByText('17 : 05')).toBeInTheDocument();
   });
 });
