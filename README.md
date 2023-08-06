@@ -8,7 +8,6 @@
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -55,10 +54,6 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 -git@github.com:Mylo16/air-pollution.git
-
-### Deployment
-
-N/A
 
 
 ## 👥 Author <a name="authors"></a>
